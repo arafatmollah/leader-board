@@ -5,11 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .leader-board{
     
     margin-left: 224px;
@@ -94,8 +90,7 @@ hr{
     font-size: 14.69px;
 }
 .course-name{
-    font-size: 
-    20.03px;
+    font-size: 20.03px;
 }
 .all-course{
     display: grid;
@@ -131,4 +126,17 @@ hr{
     color: #FFC014;
     Width : 12.39px;
     Height : 11.81px;
+}
+
+/* responsive ness for all device */
+@media only screen and (max-width:688px) {
+    .leader-board,.courses{
+        width: 100%;
+        height: 100%;
+    }
+    .players, .blogs, .all-course{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 10px;
+      
+    }
 }
