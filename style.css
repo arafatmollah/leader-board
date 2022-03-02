@@ -5,8 +5,14 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .leader-board{
-    margin: 0px 285px;
+    
+    margin-left: 224px;
     background-color: white;
     width: 870px;
     height: 679px;
@@ -31,7 +37,7 @@ body{
     font-size: 18px;
     font-weight: 500;
 }
-.top-player, .top-blogs{
+.top-player, .top-blogs, .latest-course{
     color: #562EFF;
     
 }
@@ -79,7 +85,17 @@ hr{
     Width: 870px;
     Height: 362px;
     background-color: white;
-    margin: 30px 285px;
+    margin: 30px 224px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.course-author{
+    color: #ED6B4F;
+    font-size: 14.69px;
+}
+.course-name{
+    font-size: 
+    20.03px;
 }
 .all-course{
     display: grid;
@@ -89,4 +105,8 @@ hr{
 .course img{
     width: 224px;
     height: 104px;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
 }
