@@ -41,3 +41,14 @@ hr{
     border: 0.3px solid #D1D1D1;
 }
 /* blog part */
+.blog img{
+    Width : 177px;
+    Height: 117px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blog{
+    display: flex;
+}
