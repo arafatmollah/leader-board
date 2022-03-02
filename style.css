@@ -6,16 +6,17 @@ body{
     background-color: #E5E5E5;;
 }
 main{
-    width: 900px;
-    max-width: 90%;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .leader-board{
+    
+    margin-left: 224px;
     background-color: white;
-    /* width: 870px;
-    height: 679px; */
-    margin: 1em;
-    padding: 1em;
+    width: 870px;
+    height: 679px;
+    padding: 20px;
     border-radius: 10px;
 }
 .players{
@@ -81,10 +82,10 @@ hr{
 
 /* courses part */
 .courses{
-    /* Width: 870px;
-    Height: 362px; */
+    Width: 870px;
+    Height: 362px;
     background-color: white;
-    /* margin: 30px 224px; */
+    margin: 30px 224px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -101,20 +102,33 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 53.05px;
 }
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time{
+    background-color: #FFE4E8;
+    border-radius: 14.6913px;
+    font-size: 14px;
+    padding: 3px 20px;
+    color: #FF4A60;
+}
 .course img{
     width: 224px;
     height: 104px;
 }
-.course-info{
-    display: flex;
-    justify-content: space-between;
+#last-star{
+    color: #AEAEAE;
 }
-.last-star{
+#first-star{
+    color: #AEAEAE;
+}
+#mid-star{
     color: #AEAEAE;
 }
 .fa-star{
     color: #FFC014;
-    Width :12.39px;
-    Height :11.81px;
-    margin: 1px;
+    Width : 12.39px;
+    Height : 11.81px;
 }
