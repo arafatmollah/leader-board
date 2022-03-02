@@ -10,6 +10,8 @@ body{
     background-color: white;
     width: 870px;
     height: 679px;
+    padding: 20px;
+    border-radius: 10px;
 }
 .players{
     display: grid;
@@ -29,8 +31,7 @@ body{
     font-size: 18px;
     font-weight: 500;
 }
-.leader-board .top-player{
-    margin-top: 33px;
+.top-player, .top-blogs{
     color: #562EFF;
     
 }
