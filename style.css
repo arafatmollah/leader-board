@@ -73,3 +73,20 @@ hr{
 .by{
     color: #9F9F9F;
 }
+
+/* courses part */
+.courses{
+    Width: 870px;
+    Height: 362px;
+    background-color: white;
+    margin: 30px 285px;
+}
+.all-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 53.05px;
+}
+.course img{
+    width: 224px;
+    height: 104px;
+}
