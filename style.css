@@ -147,4 +147,7 @@ hr{
         grid-row-gap: 10px;
       
     }
+    hr{
+        width: 100%;
+    }
 }
